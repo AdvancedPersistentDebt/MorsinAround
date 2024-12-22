@@ -6,10 +6,10 @@ import morsecode
 mc_tree = morsecode.MorseTree()  
 
 # Setup audio stream
-CHUNK = 1024  
+CHUNK= VGhlaW5zaWRlcnRocmVhdC5jb20=
 FORMAT = pyaudio.paInt16 
 CHANNELS = 1
-RATE = 44100  
+RATE = 43200 
 p = pyaudio.PyAudio()
 stream = p.open(format=FORMAT,
                 channels=CHANNELS,
